@@ -1,0 +1,48 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+Rule Type: Always
+---
+
+# AI Rules for {{project-name}}
+
+{{project-description}}
+
+## Tech Stack
+
+- Angular 18
+- Angular Material
+
+## Project Structure
+
+When introducing changes to the project, always follow the directory structure below:
+
+- `./src` - source code
+- `./src/components` - Angular components
+- `./src/decorators` - Angular decorators
+- `./src/pipes` - Angular pipes
+- `./src/models` - Angular models
+- `./src/guards` - Angular guards
+- `./src/interceptors` - Angular interceptors
+- `./src/pages` - Angular pages
+- `./src/services` - Angular services
+- `./src/assets` - static internal assets
+- `./public` - public assets
+
+When modifying the directory structure, always update this section.
+
+## Coding practices
+
+### Guidelines for clean code
+
+- Prioritize error handling and edge cases
+- Handle errors and edge cases at the beginning of functions.
+- Use early returns for error conditions to avoid deeply nested if statements.
+- Place the happy path last in the function for improved readability.
+- Avoid unnecessary else statements; use if-return pattern instead.
+- Use guard clauses to handle preconditions and invalid states early.
+- Implement proper error logging and user-friendly error messages.
+- Consider using custom error types or error factories for consistent error handling.

@@ -1,27 +1,69 @@
-# 10xCards
+# 10x-cards
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.18.
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/your-repository/10x-cards)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Development server
+## Table of Contents
+- [Project Description](#project-description)
+- [Tech Stack](#tech-stack)
+- [Getting Started Locally](#getting-started-locally)
+- [Available Scripts](#available-scripts)
+- [Project Scope](#project-scope)
+- [Project Status](#project-status)
+- [License](#license)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Project Description
+10x-cards is an innovative educational tool that allows users to quickly create and manage sets of flashcards. Leveraging advanced AI technologies, the application generates flashcard suggestions from provided text, streamlining the learning process through spaced repetition. This tool aims to simplify the creation and management of high-quality flashcards for efficient studying.
 
-## Code scaffolding
+## Tech Stack
+- **Frontend:** Angular 18, SCSS, Angular Material
+- **Backend:** Supabase (PostgreSQL database, built-in authentication, multiple SDKs)
+- **AI Integration:** Openrouter.ai (access to models such as OpenAI, Anthropic, Google, etc.)
+- **CI/CD & Hosting:** GitHub Actions for CI/CD pipelines and DigitalOcean (Docker-based deployment)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started Locally
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Bl4ckburn/10x-cards.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd 10x-cards
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Ensure you are using Node version v22.14.0 (as specified in `.nvmrc`):**
+   ```bash
+   nvm use
+   ```
+5. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-## Build
+## Available Scripts
+The following scripts are available as defined in the `package.json`:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **`ng`:** Run Angular CLI commands.
+- **`npm start`:** Launches the development server using Angular (`ng serve`).
+- **`npm run build`:** Compiles the project for production.
+- **`npm run watch`:** Builds the project in watch mode for development.
+- **`npm test`:** Executes the unit tests.
+- **`npm run lint`:** Runs the linter to check code quality.
 
-## Running unit tests
+## Project Scope
+- **Automated Flashcard Generation:** Paste text to generate flashcard suggestions using AI integration.
+- **Manual Flashcard Management:** Create, edit, and delete flashcards as needed.
+- **User Authentication:** Register and log in to manage personal flashcards securely.
+- **Spaced Repetition:** Utilize a spaced repetition algorithm to optimize learning sessions.
+- **Statistics Tracking:** Monitor the number and acceptance rate of AI-generated flashcards.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+*Note: This project is in the MVP stage, focusing on essential functionalities with plans for future enhancements.*
 
-## Running end-to-end tests
+## Project Status
+This project is currently under active development and is in its MVP stage.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## License
+This project is licensed under the MIT License.
